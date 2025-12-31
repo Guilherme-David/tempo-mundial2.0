@@ -191,16 +191,16 @@ body::before{
 }
 @media screen and (max-width: 400px){
      .container .weather-details .grid{
-          width: 100%;
+          width: 60%;
           grid-template-columns: auto;
      }
      .container .weather-details .info{
-          width: 100%;
+          width: 60%;
           flex-direction: row;
           justify-content: space-between;
      }
      .container .weather-details .info li{
-          gap: 5px;
+          gap: 4px;
      }
 }
 
@@ -220,3 +220,4 @@ body::before{
     background: #017556;
     color: #fff;
 }
+
